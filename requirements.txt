@@ -1,0 +1,10 @@
+tensorflow
+tensorflow-gpu
+keras
+fastapi
+Pillow
+starlette
+gunicorn
+uvicorn
+numpy
+python-multipart
