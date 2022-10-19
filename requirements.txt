@@ -1,9 +1,9 @@
 tensorflow
 tensorflow-gpu
 keras
-fastapi
+fastapi==0.85.1
 Pillow
-starlette
+starlette==0.20.4
 gunicorn
 uvicorn
 numpy
