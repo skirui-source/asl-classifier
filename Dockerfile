@@ -1,5 +1,5 @@
 # Step: Install official Python base image
-FROM python:3.8
+FROM nvidia/cuda:11.2.0-runtime-ubuntu20.04
 
 # Step: Set working directory inside the container
 WORKDIR /myapp
@@ -9,6 +9,7 @@ RUN apt-get -y update  && apt-get install -y \
     python3-dev \
     apt-utils \
     python-dev \
+    python3-pip \
     build-essential \   
 && rm -rf /var/lib/apt/lists/* 
 
@@ -16,8 +17,7 @@ RUN apt-get -y update  && apt-get install -y \
 COPY . .
 
 # Step: Install required python dependencies from requirements file
-RUN pip install --no-cache-dir -U -r requirements.txt
-
+RUN pip install -U -r requirements.txt
 
 # Step: Expose the port Flask is running on
 EXPOSE 8000
