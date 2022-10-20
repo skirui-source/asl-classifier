@@ -8,11 +8,11 @@
 
 ## Files in this repository:
 
-- demo images
+- demo - sample images
 - MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
-- model.py : load and pre-process input image for prediction 
-- main.py : FastAPI endpoint for display on webpage
-- Dockerfile to build dcontainerized app
+- model.py - load and pre-process input image for prediction 
+- main.py -  FastAPI endpoint for display on webpage
+- Dockerfile -  build dcontainerized app
 
 
 ## Requirements
@@ -43,7 +43,8 @@ VGG16 - accuracy 20%
 ## PIPELINE 
 INPUT (webcam/upload image) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT 
 
+![image](https://user-images.githubusercontent.com/71867292/196924713-e4b3ee3c-40be-447e-9aed-7eb7ef53a049.png)
 
 ## References 
-Dataset -
+Dataset - \
 DockerHub repo - 
