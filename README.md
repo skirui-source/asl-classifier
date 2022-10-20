@@ -1,14 +1,16 @@
-## American Sign Language classifier using CNN
+## American-Sign-Language-classifier using CNN
 
-Fourthbrain Mle8 final capstone project
+## Fourthbrain Mle8 final capstone project
 
+### Files in this repository:
 
-Overview: In this project, 
+- demo/: images to demonstrate the model's accuracy- uploaded via FastAPi webapp 
+- mobilenet/: MobileNet SavedModel
+    - saved_model.pb : stores model's architecture and training configuration (optimizer, loss, metrics) 
+    - variables/ folder stores the model's weights 
+- src/ : source code
+    - model.py : 
+    - main.py : 
+- Dockerfile: instructions to build containerized app > hosted in DockerHub 
 
-
-Data + Model:
-
-
-MLOps stack: 
-- image data processing:
-- 
+ ### Requirements
