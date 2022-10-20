@@ -20,7 +20,7 @@ COPY . .
 RUN pip install -U -r requirements.txt
 
 # Step: Expose the port Flask is running on
-EXPOSE 8000
+EXPOSE 5000
 
 # Step: Run Flask
-CMD uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8000
+CMD uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 5000
