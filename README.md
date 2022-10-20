@@ -8,10 +8,10 @@
 
 ## Files in this repository:
 
-- sample demo images \
-- MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights \
-- src/model.py : load and pre-process input image for prediction \
-- src/main.py : build FastAPI endpoint for display on webpage \
+- demo images
+- MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
+- model.py : load and pre-process input image for prediction 
+- main.py : FastAPI endpoint for display on webpage
 - Dockerfile to build dcontainerized app
 
 
