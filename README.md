@@ -3,22 +3,22 @@
      height="auto"/>
 </p>
 
-# <h1 align="center" id="heading">American-Sign-Language-classifier using CNN</h1>
+# <h1 align="center" id="heading">American-Sign-Language-classifier-CNN</h1>
 
 
 ## Files in this repository:
 
-sample demo images uploaded via FastAPi webapp 
-MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
-source code
-    - model.py : 
-    - main.py : 
-Dockerfile to build containerized app hosted in DockerHub repo (link) 
+sample demo images uploaded via FastAPi webapp \
+MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights \
+source code \
+    - model.py : load and pre-process input image for prediction \
+    - main.py : build FastAPI endpoint for display on webpage \
+Dockerfile to build deployable 
 
 
 ## Requirements
 python3 \
-pip3 \
+python-multipart \ 
 tensorflow \
 tensorflow-gpu \
 keras \
@@ -28,20 +28,23 @@ starlette==0.20.4 \
 gunicorn \
 uvicorn \
 numpy \ 
-python-multipart \ 
 
 
 ## signlanguage2text 
 In this capstone project, I apply transfer-learning with two renowned pre-trained Convolutional Neural Network models
 to classify asl hand gestures into text. The models were trained on open-source dataset (Kaggle), comprising 
-~2,500 samples with 36 classes (A-Z, 0-9). 
+2,500 samples across 36 classes (A-Z, 0-9). 
 
 
 ##  Neural Network
-### MOBILENET - accuracy 88%
-### VGG16 - accuracy 20%
+MOBILENET - accuracy 88% \
+VGG16 - accuracy 20%
 
 
 ## System-Design/Architecture 
-INPUT (webcam/upload) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT (prediction via webapi)
+INPUT (webcam/upload image) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT (prediction via webapi)
 
+
+## References 
+Dataset -
+DockerHub repo - 
