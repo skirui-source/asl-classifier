@@ -43,7 +43,8 @@ VGG16 - accuracy 20%
 ## PIPELINE 
 INPUT (webcam/upload image) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT 
 
-![image](https://user-images.githubusercontent.com/71867292/196924713-e4b3ee3c-40be-447e-9aed-7eb7ef53a049.png)
+![image2](https://user-images.githubusercontent.com/71867292/196924954-151160f1-4e4e-4fb6-b511-9d95eccaab54.png)
+
 
 ## References 
 Dataset - \
