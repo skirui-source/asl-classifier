@@ -1,17 +1,22 @@
-## American-Sign-Language-classifier using CNN
+<p align = "center" draggable=”false” ><img src="https://user-images.githubusercontent.com/37101144/161836199-fdb0219d-0361-4988-bf26-48b0fad160a3.png" 
+     width="200px"
+     height="auto"/>
+</p>
+
+# <h1 align="center" id="heading">American-Sign-Language-classifier using CNN</h1>
 
 
-### Files in this repository:
+## Files in this repository:
 
-- demo/: sample images uploaded via FastAPi webapp 
-- mobilenet/: MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
-- src/ : source code
+sample demo images uploaded via FastAPi webapp 
+MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
+source code
     - model.py : 
     - main.py : 
-- Dockerfile: build containerized app hosted in DockerHub repo (link) 
+Dockerfile to build containerized app hosted in DockerHub repo (link) 
 
 
-### Requirements
+## Requirements
 python3 \
 pip3 \
 tensorflow \
@@ -27,11 +32,16 @@ python-multipart \
 
 
 ## signlanguage2text 
-In this capstone project, I apply transfer-learning with two renowned pre-trained Convolutional Neural Network models (VGG16 and MobileNet)
-to classify asl hand gestures into text. The model was trained on open-source dataset (Kaggle), comprising 
-~2,500 samples with 36 classes (A-Z, 0-9). a
-
-# Neural Network Models
+In this capstone project, I apply transfer-learning with two renowned pre-trained Convolutional Neural Network models
+to classify asl hand gestures into text. The models were trained on open-source dataset (Kaggle), comprising 
+~2,500 samples with 36 classes (A-Z, 0-9). 
 
 
-TRAINING ACCURACY (MobileNet : 0.88) and (VGG16: 0.20)
+##  Neural Network
+### MOBILENET - accuracy 88%
+### VGG16 - accuracy 20%
+
+
+## System-Design/Architecture 
+INPUT (webcam/upload) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT (prediction via webapi)
+
