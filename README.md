@@ -43,9 +43,9 @@ VGG16 - accuracy 20%
 ## PIPELINE 
 INPUT (webcam/upload image) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT 
 
-![image2](https://user-images.githubusercontent.com/71867292/196924954-151160f1-4e4e-4fb6-b511-9d95eccaab54.png)
+![image](https://user-images.githubusercontent.com/71867292/196925283-e6808073-e4a5-43b6-8b9b-420f8c805903.png)
 
 
 ## References 
-Dataset - \
-DockerHub repo - 
+Dataset - https://www.kaggle.com/datasets/ayuraj/asl-dataset \
+DockerHub repo - https://hub.docker.com/repository/docker/skirui11/mle8-final-capstone
