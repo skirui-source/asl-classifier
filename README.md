@@ -8,11 +8,11 @@
 
 ## Files in this repository:
 
-- demo images
+- demo - sample images
 - MobileNet SavedModel - architecture, training configuration (optimizer, loss, metrics) and weights 
-- model.py : load and pre-process input image for prediction 
-- main.py : FastAPI endpoint for display on webpage
-- Dockerfile to build dcontainerized app
+- model.py - load and pre-process input image for prediction 
+- main.py -  FastAPI endpoint for display on webpage
+- Dockerfile -  build dcontainerized app
 
 
 ## Requirements
@@ -43,7 +43,9 @@ VGG16 - accuracy 20%
 ## PIPELINE 
 INPUT (webcam/upload image) > PRE-PROCESSING > MACHINE LEARNING > DEPLOYMENT > OUTPUT 
 
+![image](https://user-images.githubusercontent.com/71867292/196925283-e6808073-e4a5-43b6-8b9b-420f8c805903.png)
+
 
 ## References 
-Dataset -
-DockerHub repo - 
+Dataset - https://www.kaggle.com/datasets/ayuraj/asl-dataset \
+DockerHub repo - https://hub.docker.com/repository/docker/skirui11/mle8-final-capstone
