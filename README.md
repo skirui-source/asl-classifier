@@ -1,2 +1,3 @@
-# asl-classifier
-Mle8 final capstone project
+# American Sign Language classifier using CNN
+
+Forthbrain Mle8 final capstone project
